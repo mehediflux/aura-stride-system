@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { BlogPostPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/blog/$slug")({head:()=>meta("Nexus Journal","Practical ideas for building better operating systems."),component:()=>{const {slug}=Route.useParams();return <BlogPostPage slug={slug}/>}});

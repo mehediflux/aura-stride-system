@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AuthPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/signup")({head:()=>meta("Sign up","Create a Nexus account and start your free trial."),component:()=> <AuthPage mode="signup"/>});

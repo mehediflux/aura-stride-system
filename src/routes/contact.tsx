@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { ContactPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/contact")({head:()=>meta("Contact","Talk to the Nexus team about your operation."),component:ContactPage});

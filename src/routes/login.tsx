@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AuthPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/login")({head:()=>meta("Log in","Sign in to your Nexus workspace."),component:()=> <AuthPage mode="login"/>});

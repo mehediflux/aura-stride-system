@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { IntegrationsPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/integrations")({head:()=>meta("Integrations","Connect Nexus to more than 120 tools."),component:IntegrationsPage});

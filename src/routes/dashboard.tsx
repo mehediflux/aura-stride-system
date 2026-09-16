@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { DashboardPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/dashboard")({head:()=>meta("Product Dashboard","Explore the Nexus operations dashboard."),component:DashboardPage});

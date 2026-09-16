@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { FeaturesPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/features")({head:()=>meta("Features","Explore connected analytics, automation, project, and team capabilities."),component:FeaturesPage});

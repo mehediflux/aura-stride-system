@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { PricingPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/pricing")({head:()=>meta("Pricing","Flexible Nexus plans for teams at every stage."),component:PricingPage});

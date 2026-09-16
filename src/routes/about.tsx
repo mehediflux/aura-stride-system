@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AboutPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/about")({head:()=>meta("About","Meet the team building the operations OS for modern companies."),component:AboutPage});

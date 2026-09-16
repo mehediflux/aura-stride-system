@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { AuthPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/forgot-password")({head:()=>meta("Forgot password","Request a secure Nexus password reset link."),component:()=> <AuthPage mode="forgot"/>});
