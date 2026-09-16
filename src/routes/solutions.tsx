@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { SolutionsPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/solutions")({head:()=>meta("Solutions","See how Nexus helps operations, product, revenue, and leadership teams."),component:SolutionsPage});

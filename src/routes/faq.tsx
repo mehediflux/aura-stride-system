@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { FaqPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/faq")({head:()=>meta("FAQ","Answers to common questions about Nexus."),component:FaqPage});

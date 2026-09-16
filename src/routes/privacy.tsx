@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { LegalPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/privacy")({head:()=>meta("Privacy Policy","Learn how Nexus handles and protects information."),component:()=> <LegalPage kind="Privacy"/>});

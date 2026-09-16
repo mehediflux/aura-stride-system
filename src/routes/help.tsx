@@ -1,0 +1,2 @@
+import { createFileRoute } from "@tanstack/react-router"; import { DocsPage, meta } from "@/components/page-templates";
+export const Route=createFileRoute("/help")({head:()=>meta("Help Center","Find answers and support for Nexus."),component:()=> <DocsPage help/>});
